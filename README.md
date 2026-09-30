@@ -1,13 +1,15 @@
 # Zero Browser releases
 
-Official signed release artifacts for Zero Browser on Apple Silicon Macs.
+**Zero 0.1.0** is available for **Apple Silicon Macs running macOS 13 or later**.
+Built on Chromium **152.0.7977.149**, the release is Developer ID signed and Apple notarized.
 
-Visit [zero.new/browser](https://zero.new/browser/) for availability, system
-requirements, downloads, and release notes. The first release is being verified;
-there is no published browser artifact yet.
+[Download Zero Browser](https://zero.new/browser) ·
+[Release notes and DMG](https://github.com/pie-browser/zero-browser-releases/releases/tag/v0.1.0)
 
-This repository hosts binaries separately from the browser source and from Pie
-Browser releases. Do not use a Pie Browser disk image to update Zero.
+This repository hosts public binaries and Zero's automatic-update feed separately
+from the browser source and from Pie Browser releases. Use only Zero disk images
+to update Zero.
+
 Zero is derived from [Pie Browser](https://github.com/pie-browser/pie-browser).
 The Zero browser overlay retains the [MIT notice and Pie attribution](LICENSE.Zero.txt).
 Release packages include this notice in `Zero.app/Contents/Resources/LICENSE.Zero.txt`;
